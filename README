@@ -1,0 +1,9 @@
+I opted not to use NUnit or other automated testing tools and not upload the mdf to keep the size of the repo down.
+
+To run the sample:
+
+1) Create the database using the create.sql script in the database folder.  MAKE SURE YOU EDIT THE FILE LOCATION.
+2) Edit the app.config so the connection string points to the location of the daatabase you have created.
+3) Open the solution in VS2008 or greater and run it.
+
+Should be pretty straightforward.
